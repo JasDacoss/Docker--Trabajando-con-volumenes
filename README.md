@@ -1,4 +1,4 @@
-# Bitacora
+# Docker--Trabajando-con-volumenes
 
    1. Descarga la imagen 'httpd' y comprueba que está en tu equipo.
 
@@ -30,7 +30,4 @@
         http://localhost:8000
 
 
-   11. Tienen que salir la misma página web
-
-   
-# Docker--Trabajando-con-volumenes
+   11. Tienen que salir la misma página web# Docker--Trabajando-con-volumenes
