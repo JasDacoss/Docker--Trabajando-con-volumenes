@@ -2,7 +2,7 @@
 
    1. Descarga la imagen 'httpd' y comprueba que está en tu equipo.
 
-$docker pull httpd$
+$docker$ $pull$ $httpd$
 
    2. Crea un contenedor con el nombre 'asir_httpd'.
 
