@@ -2,9 +2,9 @@
 
    1. Descarga la imagen 'httpd' y comprueba que está en tu equipo.
 
+$docker pull httpd$
 
    2. Crea un contenedor con el nombre 'asir_httpd'.
-
 
    3. Mapea el puerto 80 del contenedor con el puerto 8000 de tu máquina.
 
