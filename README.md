@@ -16,18 +16,19 @@
    5. Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
 
 
-   7. Crea un contenedor 'asir_web1' que use este volumen para el 'htdocs'
+   6. Crea un contenedor 'asir_web1' que use este volumen para el 'htdocs'
 
 
-   8. Utiliza Code para hacer un hola mundo en html
+   7. Utiliza Code para hacer un hola mundo en html
 
 
-   9. Crea otro contenedor 'asir_web2' con el mismo volumen y a otro puerto, por ejemplo 9080.
+   8. Crea otro contenedor 'asir_web2' con el mismo volumen y a otro puerto, por ejemplo 9080.
 
 
-   10. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
+   9. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
         http://localhost:9080 
         http://localhost:8000
 
 
-   11. Tienen que salir la misma página web# Docker--Trabajando-con-volumenes
+   10. Tienen que salir la misma página web
+
