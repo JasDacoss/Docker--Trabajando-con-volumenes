@@ -1,36 +1,37 @@
 # Docker--Trabajando-con-volumenes
 
-   1. Descarga la imagen 'httpd' y comprueba que está en tu equipo.
+   #### Con el siguiente comando se descarga la imagen 'httpd':
 
-     $docker pull httpd
+      $docker pull httpd
 
-   2. Crea un contenedor con el nombre 'asir_httpd'.
+   #### Creamos un contenedor con el nombre 'asir_httpd':
 
-     $docker run -it --name asir_httpd-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+      $docker run -it --name asir_httpd-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
 
-   3. Mapea el puerto 80 del contenedor con el puerto 8000 de tu máquina.
+   #### Mapea el puerto 80 del contenedor con el puerto 8000 de tu máquina.
 
+      $docker run -dit --name asir_apache -p 8000:80 httpd:2.4
 
-   4. Utiliza bind mount para que el directorio del apache2 'htdocs' este montado un directorio que tu elijas.
+   #### Utiliza bind mount para que el directorio del apache2 'htdocs' este montado un directorio que tu elijas.
 
-        Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/
+      $docker container run -d -p 8000:80 -v "$$PWD"/htdocs:/usr/local/apache2/htdocs/
 
-   5. Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
-
-
-   6. Crea un contenedor 'asir_web1' que use este volumen para el 'htdocs'
+   #### Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
 
 
-   7. Utiliza Code para hacer un hola mundo en html
+   #### Crea un contenedor 'asir_web1' que use este volumen para el 'htdocs'
 
 
-   8. Crea otro contenedor 'asir_web2' con el mismo volumen y a otro puerto, por ejemplo 9080.
+   #### Utiliza Code para hacer un hola mundo en html
 
 
-   9. Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
+   #### Crea otro contenedor 'asir_web2' con el mismo volumen y a otro puerto, por ejemplo 9080.
+
+
+   #### Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
         http://localhost:9080 
         http://localhost:8000
 
 
-   10. Tienen que salir la misma página web
+   #### Tienen que salir la misma página web
 
