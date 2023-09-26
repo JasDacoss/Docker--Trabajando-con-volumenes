@@ -18,20 +18,26 @@
 
    #### Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
 
+      $
 
    #### Crea un contenedor 'asir_web1' que use este volumen para el 'htdocs'
 
+      $
 
    #### Utiliza Code para hacer un hola mundo en html
 
+      $
 
    #### Crea otro contenedor 'asir_web2' con el mismo volumen y a otro puerto, por ejemplo 9080.
 
+      $
 
    #### Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
         http://localhost:9080 
         http://localhost:8000
 
+      $
 
    #### Tienen que salir la misma página web
 
+      $
