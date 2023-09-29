@@ -22,7 +22,7 @@
 
    #### Crea un contenedor 'asir_web1' que use este volumen para el 'htdocs'
 
-      $
+      $docker run -dit --name asir_web2 -p 9080:80 -v /home/asir2/sri/apache/paginas:/usr/local/apache2/htdocs httpd:2.4
 
    #### Utiliza Code para hacer un hola mundo en html
 
