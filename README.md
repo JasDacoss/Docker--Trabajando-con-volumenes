@@ -36,8 +36,8 @@
         http://localhost:9080 
         http://localhost:8000
 
-      $
+      Aparece: Index of/
 
    #### Tienen que salir la misma página web
 
-      $# Docker--Trabajando-con-volumenes
+      Aparece: "Index of/" en ambas igual
